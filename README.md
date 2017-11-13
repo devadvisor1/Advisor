@@ -1,32 +1,59 @@
-#Api TeleBeyond
+كيفية تنصيب سورس ديف المستشار
 
-**An advanced and powerful administration api bot based on TeleSeed licensed under the [GNU General Public License](https://github.com/solid021/Api-TeleBeyond/blob/master/LICENSE)**.
+〰➖〰➖〰➖〰➖〰
+افتح ترمنـآل وخـلـي هذا الكود / وانتر
 
-#[Api-TeleBeyond Development](https://telegram.me/joinchat/CVyJuz6_PJBUrk_w--1JXw)
-#Join Please :)
+sudo apt-get update
 
-#Don't Forget Star To Us ;)
+حاول تكرر هذا الكود 3 مرات لحل كل مشاكل وعدم وجود مشكله في التنصيب 
 
-# Lets Install :D
+وراهــه
+〰➖〰➖〰➖〰➖〰
 
-```sh
-# Install dependencies.
-# Tested on Ubuntu 14.04. For other OSs, check out
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make autoconf unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
+redis-server
 
-cd $HOME
-git clone http://Github.com/BeyondTeam/Api-TeleBeyond.git
-cd Api-TeleBeyond
+〰➖〰➖〰➖〰➖〰
+📍 وبـعـديـن خـلـي هذا الامر / وانتر
+
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev                                                                                                                                                                                                                                                                        
+
+〰➖〰➖〰➖〰➖〰
+📍يطلعلك Y/N اكتب Y وانتر
+📍 بـعـديـن خـلـي / وانتر
+git clone https://github.com/devadvisor1/Advisor.git
+〰➖〰➖〰➖〰➖〰
+📍وراهه خـلـي هذا كود / وانتر
+
+cd Advisor
+〰➖〰➖〰➖〰➖〰
+📍 بـعـديـن خـلـي هاي / وانتر
+
 chmod +x launch.sh
+〰➖〰➖〰➖〰➖〰
+📍بـعـديـن خـلـي / وانتر
+
 ./launch.sh install
+〰➖〰➖〰➖〰➖〰
+ اخير شي خلي هذا كود / وانتر 
+
 ./launch.sh
 
-And Enter Your Bot Token :D
+#ملاحظة انتضر لحد ميكمل ويطلب رقم تلفون
+〰➖〰➖〰➖〰➖〰
+📍اذا تريد تحول البوت توكن من يطلب رقم اغلقه وافتح ترمنال جديد
+و حط هذا الكود وبعدين يطلب hash حط التوكن وانتر وهاي هيه تحول توكن
+
+rm -fr ../.telegram-cli && cd Advisor && ./launch.sh -bw
+
+〰➖〰➖〰➖〰➖〰
+
+🕵 - DevLoper : @IH_BI
+ 📍- Channel : @Team_Advisor
 ```
 ### One command
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make autoconf unzip git redis-server g++ -y --force-yes && git clone https://github.com/BeyondTeam/Api-TeleBeyond.git && cd Api-TeleBeyond && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make autoconf unzip git redis-server g++ -y --force-yes && git clone https://github.com/devadvisor1/Advisor.git && cd Advisor && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 ### Realm configuration
 
@@ -34,31 +61,4 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 
 Put Your Telegram ID In ./data/config.lua
 ```
-  sudo_users = {
- 157059515,
-    YourID
-  }
-```
-Then restart the bot.
 
-#Sudo Users :
-
-#([SoLiD](https://telegram.me/SoLiD021))
-
-#([Behnam](https://telegram.me/idivaNmanheB))
-
-#Team Channel :
-
-#([@BeyondTeam](https://telegram.me/BeyondTeam))
-
-#Special Thx To :
-
-#([MrHalix](https://telegram.me/MrHalix))
-
-Seed Team
-
-TelePro Team
-
-And All My Friends
-
-#Good Luck :D
