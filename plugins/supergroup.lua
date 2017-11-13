@@ -1114,7 +1114,7 @@ local function run(msg, matches)
             if not is_owner(msg) and not is_support(msg.from.id) then 
                 return 
             end 
-            member_type = '📌قائمه الاداريين📌' 
+            member_type = '|⚜️ قائمه الادريين :' 
             savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested SuperGroup Admins list") 
             admins = channel_get_admins(receiver,callback, {receiver = receiver, msg = msg, member_type = member_type}) 
         end 
